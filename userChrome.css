@@ -1,0 +1,203 @@
+/* Font settings */
+:root {
+	*:not(.titlebar-buttonbox-container *) {
+		font-family: "DM Sans 14pt", sans-serif !important;
+}
+
+.bookmark-item,
+.checkbox-label,
+.findbar-label,
+.findbar-textbox,
+.menubar,
+.menupopup,
+.search-panel-one-offs-header-label,
+.subviewbutton,
+.tab-preview-text-container,
+.unified-extensions-item-action-button *,
+.tab-group-label,
+.tab-text.tab-label,
+.urlbarView-userContext-iconMode,
+.zen-current-workspace-indicator-name,
+menupopup,
+[class^="zen-workspace-creation"],
+[id^="toolbar-context-"],
+[id^="zen-context-menu-compact-mode-"],
+#confirmation-hint-message,
+#history-panel,
+#identity-icon-label,
+#identity-popup-mainView-panel-header-span,
+#synced-tabs-client-0,
+#synced-tabs-client-1,
+#tab-label-input,
+#urlbar-input,
+#urlbar-zoom-button,
+#zen-toast-container {
+	font-size: 13px !important;
+}
+
+/* URL bar results specific font */
+#sidebar-header,
+#urlbar-results * {
+	font-size: 1.25rem !important;
+}
+
+/* URL bar styling */
+#urlbar-input {
+	font-size: 14px !important;
+	text-align: center !important;
+}
+
+#urlbar-input[aria-expanded="true"] {
+	font-size: 18px !important;
+}
+
+#urlbar[open] {
+	min-width: 65vw !important;
+	font-size: 1.4rem !important;
+}
+
+#identity-box,
+#urlbar-zoom-button {
+	padding: 0 !important;
+	opacity: 0 !important;
+	max-width: 0 !important;
+	transition: padding 0.5s ease-in-out, max-width 0.5s ease-in-out, opacity 0.5s ease-in-out !important;
+}
+
+.urlbar-input-container:hover #urlbar-zoom-button {
+	padding: 3px 7px !important;
+}
+
+.urlbar-input-container:hover #identity-box,
+.urlbar-input-container:hover #urlbar-zoom-button {
+	opacity: 1 !important;
+	max-width: 200px !important;
+}
+
+/* UI Elements styling */
+.identity-box-button,
+.urlbar-page-action,
+.urlbarView-favicon,
+#tracking-protection-icon-container,
+#urlbar-zoom-button {
+	border-radius: 1.5rem !important;
+}
+
+#urlbar-zoom-button {
+	margin: calc(
+		(var(--urlbar-min-height) - 20px) / 2 - 2px - var(--urlbar-container-padding)
+	) !important;
+}
+
+.browserSidebarContainer {
+	border-radius: 1rem !important;
+}
+
+/* Hide elements */
+.extensionPage,
+.panel-header,
+.unified-extensions-item-message-deck,
+#identity-icon-box,
+#star-button-box,
+#tracking-protection-icon-container,
+#unified-extensions-description,
+#unified-extensions-messages-container,
+#userContext-indicator,
+#userContext-label {
+	display: none !important;
+}
+
+/* Unified Extensions */
+.unified-extensions-item {
+	margin: 1px !important;
+}
+
+.unified-extensions-item-action-button,
+.unified-extensions-item-menu-button {
+	padding-block: 0px !important;
+}
+
+#unified-extensions-view {
+	width: 290px !important;
+}
+
+/* Picture-in-Picture */
+@-moz-document url("chrome://global/content/pictureinpicture/player.xhtml")
+{
+	html {
+		border: 0 !important;
+		border-radius: 3rem !important;
+	}
+}
+
+/* Status panel */
+#statuspanel {
+	margin: 0.5rem !important;
+}
+
+#statuspanel-label {
+	background: var(--zen-colors-tertiary) !important;
+	border: 2px solid var(--zen-colors-border) !important;
+	border-radius: 1rem !important;
+	font-family: "Geist Mono" !important;
+	font-size: 1rem !important;
+	padding: 2px 10px !important;
+}
+
+/* Title bar buttons */
+.titlebar-button {
+	border: 0 !important;
+	border-radius: var(--uc-contextmenu-menuitem-border-radius) !important;
+	height: 0 !important;
+	padding: 13px !important;
+	width: 0 !important;
+	align-items: center !important;
+}
+
+.titlebar-buttonbox {
+	align-items: center !important;
+	gap: 2px !important;
+	justify-content: center !important;
+}
+
+.titlebar-close {
+	margin-right: 6px !important;
+}
+	
+#zen-sidebar-top-buttons .titlebar-buttonbox-container {
+      margin-top: 0px !important;
+}
+/* Sidebar and navigation */
+
+.urlbarView-row[has-action]:is([type="switchtab"], [type="remotetab"], [type="clipboard"])
+	.urlbarView-action {
+	margin-left: 6px !important;
+}
+
+[zen-compact-mode="true"] .browser-toolbox-background {
+	height: 80% !important;
+	margin-block: auto !important;
+}
+
+#nav-bar {
+	margin-bottom: 0 !important;
+}
+
+#page-action-buttons hbox {
+	align-items: center !important;
+	margin: 0 !important;
+}
+
+#sidebar-box {
+	min-width: 36rem !important;
+}
+
+#TabsToolbar {
+	margin-top: 4px !important;
+	margin-inline: 1px !important;
+}
+
+#navigator-toolbox {
+	--border-radius-medium: 11px !important;
+	--tab-border-radius: 6px !important;
+}
