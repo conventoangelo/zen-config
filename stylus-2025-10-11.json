@@ -1,0 +1,1416 @@
+[
+  {
+    "settings": {
+      "disableAll": false,
+      "exposeIframes": false,
+      "exposeStyleName": false,
+      "keepAlive": 0,
+      "keepAliveIdle": false,
+      "newStyleAsUsercss": false,
+      "openEditInWindow": false,
+      "openEditInWindow.popup": false,
+      "patchCsp": false,
+      "show-badge": true,
+      "styleViaASS": false,
+      "styleViaXhr": false,
+      "urlInstaller": true,
+      "windowPosition": {},
+      "compactWidth": 850,
+      "config.autosave": true,
+      "schemeSwitcher.enabled": "system",
+      "schemeSwitcher.nightStart": "18:00",
+      "schemeSwitcher.nightEnd": "06:00",
+      "popup.enabledFirst": true,
+      "popup.stylesFirst": true,
+      "popup.autoResort": false,
+      "popup.borders": false,
+      "popup.findSort": "w",
+      "manage.onlyEnabled": false,
+      "manage.onlyLocal": false,
+      "manage.onlyUsercss": false,
+      "manage.onlyEnabled.invert": false,
+      "manage.onlyLocal.invert": false,
+      "manage.onlyUsercss.invert": false,
+      "manage.actions.expanded": false,
+      "manage.backup.expanded": true,
+      "manage.filters.expanded": true,
+      "manage.links.expanded": true,
+      "manage.minColumnWidth": 750,
+      "manage.newUI": true,
+      "manage.newUI.favicons": true,
+      "manage.newUI.faviconsGray": false,
+      "manage.newUI.targets": 3,
+      "manage.newUI.sort": "title,asc",
+      "manage.searchMode": "meta",
+      "editor.options": {},
+      "editor.toc.expanded": true,
+      "editor.options.expanded": true,
+      "editor.options.style.expanded": true,
+      "editor.lint.expanded": true,
+      "editor.publish.expanded": true,
+      "editor.lineWrapping": true,
+      "editor.smartIndent": true,
+      "editor.indentWithTabs": false,
+      "editor.tabSize": 4,
+      "editor.keyMap": "sublime",
+      "editor.theme": "default",
+      "editor.beautify": {
+        "selector_separator_newline": true,
+        "newline_before_open_brace": false,
+        "newline_after_open_brace": true,
+        "newline_between_properties": true,
+        "newline_before_close_brace": true,
+        "newline_between_rules": false,
+        "preserve_newlines": true,
+        "end_with_newline": false,
+        "indent_conditional": true,
+        "indent_mozdoc": true,
+        "space_around_combinator": true,
+        "space_around_cmp": false
+      },
+      "editor.beautify.hotkey": "",
+      "editor.lintDelay": 300,
+      "editor.linter": "csslint",
+      "editor.lintReportDelay": 500,
+      "editor.matchHighlight": "token",
+      "editor.autoCloseBrackets": true,
+      "editor.autocompleteOnTyping": false,
+      "editor.contextDelete": false,
+      "editor.selectByTokens": true,
+      "editor.arrowKeysTraverse": true,
+      "editor.appliesToLineWidget": true,
+      "editor.autosaveDraft": 10,
+      "editor.livePreview": true,
+      "editor.livePreview.delay": 0.2,
+      "editor.targetsFirst": true,
+      "editor.colorpicker": true,
+      "editor.colorpicker.hexUppercase": false,
+      "editor.colorpicker.hotkey": "",
+      "editor.colorpicker.color": "",
+      "editor.colorpicker.maxHeight": 300,
+      "hotkey._execute_browser_action": "",
+      "hotkey.openManage": "",
+      "hotkey.styleDisableAll": "",
+      "sync.enabled": "google",
+      "iconset": -1,
+      "badgeDisabled": "#8B0000",
+      "badgeNormal": "#006666",
+      "headerWidth.edit": 280,
+      "headerWidth.install": 280,
+      "headerWidth.manage": 280,
+      "popup.search.globals": false,
+      "popupWidth": 246,
+      "popupWidthMax": 280,
+      "updateInterval": 24,
+      "updateOnlyEnabled": true
+    },
+    "order": {
+      "main": [],
+      "prio": []
+    }
+  },
+  {
+    "enabled": true,
+    "installDate": 1730876607505,
+    "name": "tree.taiga.io",
+    "sections": [
+      {
+        "code": "body,\nh1,\nh2,\nspan,\np,\na,\nlabel,\nbutton,\ninput,\noptgroup,\nselect,\ntextarea,\n.section-name,\n.dropdown-project-list .see-more-projects-btn,\n.board-zoom .board-zoom-title,\n.name {\n    font-family: \"DM Sans 14pt\", \"Inter Variable Text\" !important;\n}\n\n.username,\n.card-ref,\n.created-date,\n.detail-ref {\n    font-family: \"Geist Mono\" !important;\n}\n\n.navbar .nav-right .topnav-dropdown-wrapper > a,\n.navbar .nav-right > a {\n    padding: .9rem 1rem;\n}\n\n.name {\n    font-weight: 600 !important;\n}\n\n.kanban-table-header .task-colum-name,\n.kanban-table-body .taskboard-column {\n    flex-basis: 350px;\n    max-width: initial;\n}",
+        "domains": [
+          "tree.taiga.io"
+        ]
+      }
+    ],
+    "updateDate": 1738908981294,
+    "_id": "6cf7001b-e0c8-402e-85e7-844a0e9c9579",
+    "_rev": 1759598246150,
+    "id": 1
+  },
+  {
+    "enabled": true,
+    "installDate": 1725344058114,
+    "name": "www.youtube.com",
+    "sections": [
+      {
+        "code": "* {\n    font-family: \"Google Sans\", \"Inter Variable Text\", sans-serif !important;\n}\n\n#movie_player {\n    border-radius: 0em !important;\n}\n\nytd-alert-with-button-renderer[is-displayed],\nytd-message-renderer[panel],\nytd-rich-section-renderer,\n.ytp-caption-window-top,\n.ytp-chapter-container.sponsorblock-chapter-visible,\n#content-section.ytd-channel-renderer {\n    display: none !important;\n}",
+        "domains": [
+          "www.youtube.com"
+        ]
+      }
+    ],
+    "updateDate": 1750044079291,
+    "_id": "c1c2f7e9-0d9c-4b1e-b14e-6bae0043b7d9",
+    "_rev": 1759598246150,
+    "id": 2
+  },
+  {
+    "enabled": true,
+    "installDate": 1726852765007,
+    "name": "<Stylus>",
+    "sections": [
+      {
+        "code": "body {\n    font-family: \"DM Sans\", \"DM Sans 14pt\", \"Inter Variable\", \"Inter Variable Text\" !important;\n}\n.CodeMirror {\n    font-family: \"DM Mono\";\n    font-size: 15px;\n}",
+        "regexps": [
+          "^\\w+-extension://.+"
+        ]
+      }
+    ],
+    "updateDate": 1750043803544,
+    "_id": "9c431308-5e46-4bba-8bd4-3ce9935b6377",
+    "_rev": 1759598246150,
+    "id": 3
+  },
+  {
+    "enabled": true,
+    "installDate": 1730612516958,
+    "name": "bitwarden.com",
+    "sections": [
+      {
+        "code": "html,\nbody {\n    font-family: \"DM Sans 14pt\", \"DM Sans\" !important;\n}",
+        "domains": [
+          "bitwarden.com"
+        ],
+        "urlPrefixes": [
+          "moz-extension:"
+        ]
+      }
+    ],
+    "updateDate": 1753101821997,
+    "_id": "2fc17c57-b125-416b-9b95-f3b1d8eed98b",
+    "_rev": 1759598246150,
+    "id": 4
+  },
+  {
+    "enabled": true,
+    "installDate": 1727772362393,
+    "name": "www.reddit.com",
+    "sections": [
+      {
+        "code": ":root {\n\t--font-sans: \"DM Sans 14pt\", \"Inter Variable\", sans-serif !important;\n\t--font-mono: \"DM Mono\";\n}",
+        "domains": [
+          "www.reddit.com"
+        ]
+      }
+    ],
+    "updateDate": 1759648121380,
+    "_id": "a4e2c755-2029-448b-8059-d9bd28727ffc",
+    "_rev": 1759648121380,
+    "id": 5
+  },
+  {
+    "enabled": true,
+    "installDate": 1725343355499,
+    "name": "www.google.com",
+    "sections": [
+      {
+        "code": "body, input, select, h3, html, div, textarea {\n    font-family: \"Google Sans\", Geist, Inter, Arial, sans-serif !important;\n}\n\n.google-symbols {\n    font-family: \"Google Symbols\" !important;\n    font-optical-sizing: auto;\n}\n\npre, code {\n    font-family: \"Geist Mono\" !important;\n}",
+        "domains": [
+          "www.google.com"
+        ]
+      }
+    ],
+    "updateDate": 1751509498269,
+    "_id": "0d1d3fc0-1e86-4e62-bbb3-72a9cf766466",
+    "_rev": 1759598246150,
+    "id": 6
+  },
+  {
+    "enabled": true,
+    "installDate": 1728706735604,
+    "name": "ranelpadon.github.io/ngram-type/",
+    "sections": [
+      {
+        "code": "body {\n    font-family: \"DM Mono\";\n}",
+        "urlPrefixes": [
+          "https://ranelpadon.github.io/ngram-type/"
+        ]
+      }
+    ],
+    "updateDate": 1728706737890,
+    "_id": "61944c66-591c-4a2d-81f0-02ea58053713",
+    "_rev": 1759598246150,
+    "id": 7
+  },
+  {
+    "enabled": true,
+    "installDate": 1728706244251,
+    "name": "www.burst-type.pro",
+    "sections": [
+      {
+        "code": ".__className_6c433e {\n    font-family: \"DM Mono\";\n    font-style: normal;\n}",
+        "domains": [
+          "www.burst-type.pro"
+        ]
+      }
+    ],
+    "updateDate": 1728706244251,
+    "_id": "fd43e51a-c24e-4a4a-aa56-90f215d92e95",
+    "_rev": 1759598246150,
+    "id": 8
+  },
+  {
+    "enabled": true,
+    "installDate": 1728492417664,
+    "name": "vuejs.org",
+    "sections": [
+      {
+        "code": "span {\n    font-family: \"DM Sans 14pt\";\n}",
+        "domains": [
+          "vuejs.org"
+        ]
+      }
+    ],
+    "updateDate": 1728492417664,
+    "_id": "522011a1-1ca8-421b-98ac-48d44448f207",
+    "_rev": 1759598246150,
+    "id": 9
+  },
+  {
+    "enabled": true,
+    "installDate": 1728491466065,
+    "name": "www.conventionalcommits.org",
+    "sections": [
+      {
+        "code": ".markdown-body {\n    font-family: \"DM Sans 14pt\";\n}\n\n.markdown-body code,\n.markdown-body pre {\n    font-family: DM Mono;\n    font-size: 14px;\n}\n\nbody {\n    font: 16px \"DM Sans 14pt\";\n}",
+        "domains": [
+          "www.conventionalcommits.org"
+        ]
+      }
+    ],
+    "updateDate": 1728492257116,
+    "_id": "3f8be99c-b4f3-44b7-9a31-f4babf875bfc",
+    "_rev": 1759598246150,
+    "id": 10
+  },
+  {
+    "enabled": true,
+    "installDate": 1728392880988,
+    "name": "opensauced.pizza",
+    "sections": [
+      {
+        "code": ":root {\n    --ifm-font-family-base: \"DM Sans 14pt\";\n    --ifm-font-family-monospace: \"DM Mono\";\n}",
+        "domains": [
+          "opensauced.pizza"
+        ]
+      }
+    ],
+    "updateDate": 1728392921214,
+    "_id": "fa7bcf94-8e91-42c8-9f77-ce622f13a12b",
+    "_rev": 1759598246150,
+    "id": 11
+  },
+  {
+    "enabled": true,
+    "installDate": 1728391795988,
+    "name": "opensource.guide",
+    "sections": [
+      {
+        "code": "body {\n    font-family: 'DM Sans 14pt';\n}",
+        "domains": [
+          "opensource.guide"
+        ]
+      }
+    ],
+    "updateDate": 1728391959828,
+    "_id": "5872f60a-9c9b-4041-aa2b-694cc69cca8f",
+    "_rev": 1759598246150,
+    "id": 12
+  },
+  {
+    "enabled": true,
+    "installDate": 1727780486412,
+    "name": "www.linkedin.com",
+    "sections": [
+      {
+        "code": ":root {\n    --artdeco-reset-typography-font-family-sans: 'DM Sans 14pt', 'Inter Variable Text', sans-serif;\n}",
+        "domains": [
+          "www.linkedin.com"
+        ]
+      }
+    ],
+    "updateDate": 1741170081177,
+    "_id": "4988946b-8342-4091-9676-9c589834523c",
+    "_rev": 1759598246150,
+    "id": 13
+  },
+  {
+    "enabled": true,
+    "installDate": 1727771719326,
+    "name": "dreymar.colemak.org",
+    "sections": [
+      {
+        "code": "body {\n    font-family: \"Inter Variable Text\";\n}",
+        "domains": [
+          "dreymar.colemak.org"
+        ]
+      }
+    ],
+    "updateDate": 1727771719326,
+    "_id": "5288d31b-f7fa-4dd3-8215-5043c4535b39",
+    "_rev": 1759598246150,
+    "id": 14
+  },
+  {
+    "enabled": true,
+    "installDate": 1727618031481,
+    "name": "www.geeksforgeeks.org",
+    "sections": [
+      {
+        "code": ":root {\n    --font-primary: \"DM Sans 14pt\", \"DM Sans\" !important;\n    --font-secondary: \"DM Sans 14pt\", \"DM Sans\" !important;\n}\n\nbody {\n    font-family: \"DM Sans 14pt\", \"DM Sans\" !important;\n}\n\ncode,\npre {\n    font-family: \"DM Mono\";\n}",
+        "domains": [
+          "www.geeksforgeeks.org"
+        ]
+      }
+    ],
+    "updateDate": 1750737345266,
+    "_id": "90dcdee6-b959-43dc-9942-352ac0a69a7b",
+    "_rev": 1759598246150,
+    "id": 15
+  },
+  {
+    "enabled": true,
+    "installDate": 1727617311070,
+    "name": "chatgpt.com",
+    "sections": [
+      {
+        "code": "body {\n    font-family: \"DM Sans\", \"Inter Variable Text\" !important;\n}\n\ncode,\npre {\n    font-family: \"JetBrains Mono\", \"Geist Mono\" !important;\n}",
+        "domains": [
+          "chatgpt.com"
+        ]
+      }
+    ],
+    "updateDate": 1753204484709,
+    "_id": "672ebbfd-c4a3-4a36-8a8b-123b9fb07883",
+    "_rev": 1759598246150,
+    "id": 16
+  },
+  {
+    "enabled": true,
+    "installDate": 1727616993133,
+    "name": "oj.dcs.upd.edu.ph",
+    "sections": [
+      {
+        "code": "body,\n.content-description {\n    font-family: 'DM Sans 14pt';\n}\n\n.content-description code,\n.content-description span.code,\npre,\ncode {\n    font-family: 'Geist Mono' !important;\n}\n\n.ace_editor{\n    font-family: \"Geist Mono\" !important;\n}\n\n",
+        "domains": [
+          "oj.dcs.upd.edu.ph"
+        ]
+      }
+    ],
+    "updateDate": 1728816354069,
+    "_id": "7770f4cd-6705-4ed9-ae11-1c098f52dfc3",
+    "_rev": 1759598246150,
+    "id": 17
+  },
+  {
+    "enabled": true,
+    "installDate": 1727492376558,
+    "name": "claude.ai",
+    "sections": [
+      {
+        "code": "code {\n    font-family: 'JetBrains Mono' !important;\n}",
+        "domains": [
+          "claude.ai"
+        ]
+      }
+    ],
+    "updateDate": 1727492387125,
+    "_id": "fd3055f1-5d33-4cb1-b1e0-ca9311dcdc06",
+    "_rev": 1759598246150,
+    "id": 18
+  },
+  {
+    "enabled": true,
+    "installDate": 1726851942671,
+    "name": "github.com",
+    "sections": [
+      {
+        "code": ":root {\n    --fontStack-monospace: \"Geist Mono\" !important;\n    --fontStack-sansSerifDisplay: \"DM Sans 14pt\", \"DM Sans\", sans-serif !important;\n    --fontStack-sansSerif: \"DM Sans 14pt\", \"DM Sans\", sans-serif !important;\n    --fontStack-system: \"DM Sans 14pt\", \"DM Sans\", sans-serif !important;\n}\n\n.markdown-body,\n.markdown-title,\nbody,\n.PageHeader .PageHeader-titleWrap {\n    font-family: \"DM Sans 14pt\", \"DM Sans\", sans-serif !important;\n}\n\n.markdown-body pre code {\n    font-size: 110%;\n}\n\ntt,\ncode,\nsamp {\n    font-size: 1em;\n}\n\n.markdown-title code {\n    font-weight: 500;\n}\n.markdown-body code,\n.markdown-body tt,\n.markdown-body pre {\n    font-size: 95%;\n}\n\n.highlight.notranslate.position-relative.overflow-auto {\n    border-radius: 0.5rem;\n}\n\n[placeholder=\"Add an optional extended description…\"],\n#commit-message-input,\n#commit-description-input,\n#release_body,\n#gpg_key_public_key,\n#ssh_key_key {\n    font-family: \"Geist Mono\" !important;\n}",
+        "domains": [
+          "github.com"
+        ]
+      }
+    ],
+    "updateDate": 1758821768684,
+    "_id": "697b8557-859b-41fb-b3f1-2c39c42a40d1",
+    "_rev": 1759598246150,
+    "id": 19
+  },
+  {
+    "enabled": true,
+    "installDate": 1726666559650,
+    "name": "codelabs.developers.google.com",
+    "sections": [
+      {
+        "code": ":root {\n    --devsite-code-font-family: Geist Mono, monospace;\n    --devsite-primary-font-family: Geist, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Naskh Arabic, Noto Sans Thai, Noto Sans Hebrew, Noto Sans Bengali, sans-serif;\n}\n\nbody[codelabs-content-type=paginated] google-codelab #codelab-title h1,\nbody[codelabs-content-type=paginated] google-codelab #drawer ol li a {\n    font-family: Geist;\n}",
+        "domains": [
+          "codelabs.developers.google.com"
+        ]
+      }
+    ],
+    "updateDate": 1726666687002,
+    "_id": "e15c3a3d-17ef-4058-9bf2-d0b0abe7b54e",
+    "_rev": 1759598246150,
+    "id": 20
+  },
+  {
+    "enabled": true,
+    "installDate": 1726378151425,
+    "name": "colemakmods.github.io",
+    "sections": [
+      {
+        "code": ".preformatted, .key {\n    font-family: \"Geist Mono\", monospace !important;\n}\n\nhtml,\nbody,\ndiv,\nspan,\napplet,\nobject,\niframe,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\np,\nblockquote,\npre,\na,\nvideo,\nselect,\nbutton {\n    font-family: Inter;\n}\n\na {\n    font-weight: 600;\n}",
+        "domains": [
+          "colemakmods.github.io"
+        ]
+      }
+    ],
+    "updateDate": 1726378791412,
+    "_id": "134183ef-11ad-41af-b5c5-3fb7edbde87c",
+    "_rev": 1759598246150,
+    "id": 21
+  },
+  {
+    "enabled": true,
+    "installDate": 1726219136239,
+    "name": "www.keybr.com",
+    "sections": [
+      {
+        "code": ":root,\nhtml[data-font=opensans] {\n    --default-font-family: \"Inter\", sans-serif;\n    --header-font-family: \"Inter\", sans-serif;\n    --value-font-family: \"Geist Mono\", monospace;\n    --monospace-font-family: \"Geist Mono\", monospace;\n}\n\n\n.BXHaqdRzA4.QFnXOg3I3h {\n    font-family: \"Geist Mono\" !important;\n}\n\n.p8KBocnU4S {\n    padding-block-start: 2.5rem;\n}\n\n.un_DwZjijf,\n.OwwD1wIMbI,\n.n64G5u7MY3,\n.rEZgPALkTR {\n    display: none;\n}",
+        "domains": [
+          "www.keybr.com"
+        ]
+      }
+    ],
+    "updateDate": 1727625656799,
+    "_id": "4f62d184-d0e2-43b0-8188-08739fc71900",
+    "_rev": 1759598246150,
+    "id": 22
+  },
+  {
+    "enabled": true,
+    "installDate": 1725261667576,
+    "name": "dota2protracker.com",
+    "sections": [
+      {
+        "code": "* {\n    font-family: 'Inter Variable Text' !important;\n}\n\n\n#odds-feed-1 {\n    display: none;\n}\n\n#search::placeholder {\n    color: transparent;\n}\n\n#sidebar {\n    display: none;\n}\n\n.flex.gap-2.p-2 {\n    width: max-content !important;\n}",
+        "domains": [
+          "dota2protracker.com"
+        ]
+      }
+    ],
+    "updateDate": 1740757034327,
+    "_id": "eb6f3446-4007-490d-927a-c255af24fa3c",
+    "_rev": 1759598246150,
+    "id": 23
+  },
+  {
+    "enabled": true,
+    "installDate": 1724134297085,
+    "name": "config.qmk.fm - Aug 2024",
+    "sections": [
+      {
+        "code": "body,\nlabel,\nbutton {\n    font: 14px / 1.5 Inter, Helvetica Neue, Helvetica, Arial, sans-serif;\n}\n\n\n#terminal,\n.key {\n    font-family: \"Geist Mono\";\n}\n\n.keycode {\n    font-family: \"Geist Mono\";\n    width: 3.25rem;\n    height: 3.25rem;\n    font-size: 90%;\n    font-weight: 500;\n}",
+        "domains": [
+          "config.qmk.fm"
+        ]
+      }
+    ],
+    "updateDate": 1724409948376,
+    "_id": "117da0b4-94b4-4d27-8d1b-217947df5f32",
+    "_rev": 1759598246150,
+    "id": 24
+  },
+  {
+    "enabled": true,
+    "installDate": 1724127200637,
+    "name": "www.messenger.com - Aug 2024",
+    "sections": [
+      {
+        "code": "#facebook .system-fonts--body.segoe {\n    font-family: -apple-system, BlinkMacSystemFont, \".SFNSText-Regular\", \"DM Sans 14pt\", \"Inter Variable Text\", sans-serif;\n}\n\n:root,\n.__fb-light-mode,\n.__fb-dark-mode {\n    --messenger-card-spacing: 6px;\n}\n\n.x9f619.x1ja2u2z.x78zum5.x1n2onr6.x1r8uery.xs83m0k.xeuugli.x1qughib.x6s0dn4.xozqiw3.x1q0g3np.xknmibj.x1c4vz4f.xt55aet.xexx8yu.x1xnnf8n.x18d9i69.x106a9eq.x1lku1pv {\n    display: none !important;\n}",
+        "domains": [
+          "www.messenger.com"
+        ]
+      }
+    ],
+    "updateDate": 1759899379876,
+    "_id": "7de1f466-5538-468b-9c39-b84fe8ea993a",
+    "_rev": 1759899379876,
+    "id": 25
+  },
+  {
+    "enabled": true,
+    "installDate": 1724042782921,
+    "name": "roadmap.sh - Aug 2024",
+    "sections": [
+      {
+        "code": "html, :host {\n    font-family: Geist, \"Inter Variable Text\";\n}\n\n.sticky.top-0.z-\\[91\\] {\n  display: none;\n}\n\ntspan {\n  font-family: \"HAFFER-TRIAL\";\n}",
+        "domains": [
+          "roadmap.sh"
+        ]
+      }
+    ],
+    "updateDate": 1742478496251,
+    "_id": "3e616e1c-5604-4523-a6ab-8292c565de15",
+    "_rev": 1759598246150,
+    "id": 26
+  },
+  {
+    "enabled": true,
+    "installDate": 1724039636836,
+    "name": "uvle.upd.edu.ph - Aug 2024",
+    "sections": [
+      {
+        "code": "body {\n    font-family: \"DM Sans 14pt\", Geist;\n}\n\na {\n    font-weight: 600;\n}",
+        "domains": [
+          "uvle.upd.edu.ph"
+        ]
+      }
+    ],
+    "updateDate": 1729253542501,
+    "_id": "e74e9cb5-c3a9-4b53-93cc-00b1e44212ef",
+    "_rev": 1759598246150,
+    "id": 27
+  },
+  {
+    "enabled": true,
+    "installDate": 1724039468112,
+    "name": "torrentgalaxy.to - Aug 2024",
+    "sections": [
+      {
+        "code": "body,\ni.far,\ni.fas,\n.ubuntu,\nspan.username,\n#nonzero,\n#zero {\n    font-family: \"DM Sans 14pt\", \"Geist Mono\" !important;\n}\n\n.fas:before,\n.far:before {\n    font-family: \"Font Awesome 5 Free\";\n    font-size: 16px !important;\n}\n\ni.fas {\n    font-weight: bold;\n}\n\nspan.username {\n    font-weight: 600 !important;\n}\n\nnav.txdark,\nnav.txlight {\n    background: none !important;\n}\n\n.ubuntu.panel-title.txdark,\n.panel-title {\n    color: #FAFAFA !important;\n}\n\ndiv.panel-heading {\n    background-color: #1A1A1A !important;\n    border-color: #1A1A1A !important;\n}\n\n[style*=\"crimson\"],\nfont[color=\"#FF0000\"],\n[style*=\"red\"] {\n    color: #FF3D3D !important;\n}\n\n[style*=\"green\"],\nfont[color=\"green\"],\nspan.username.trusted-uploader {\n    color: #05BC79 !important;\n}\n\n.btc_style,\n#tgxnavbar {\n    display: none !important;\n}\n\ndiv.txdark a {\n    color: #9EBFFF !important;\n}\n\n.badge {\n    font-weight: 500 !important;\n}\n\n.badge.badge-secondary.txdark {\n    color: #E5E5E5;\n    background-color: #5A5C62 !important;\n}\n\nimg.dim.txdark {\n    filter: brightness(95%) !important;\n}\n\ndiv #intblock.panel-primary.txdark,\n#innerhead.tgxtablehead.int.txdark {\n    color: #E5E5E5;\n}\n\n.fa-id-badge,\n.fa-envelope,\n.fa-sign-out-alt {\n    font-size: 0 !important;\n}\n\n.far.fa-id-badge {\n    width: 16px;\n}\n\n.navbar-nav > li > a {\n    line-height: 16px;\n}\n\n.btn.btn-default.btn-sm.txdark {\n    margin: 2px;\n}\n\nspan.username.verified-uploader {\n    color: #2E87EA;\n}",
+        "domains": [
+          "torrentgalaxy.to",
+          "tgx.rs",
+          "torrentgalaxy.one"
+        ]
+      }
+    ],
+    "updateDate": 1740152934658,
+    "_id": "534b8a62-4d69-4554-b8b0-ef15beba9ab7",
+    "_rev": 1759598246150,
+    "id": 28
+  },
+  {
+    "enabled": true,
+    "installDate": 1724039253963,
+    "name": "crs.upd.edu.ph - Aug 2024",
+    "sections": [
+      {
+        "code": "body, input{\n    font-family: Inter, Geist;\n}\n\n.clock {\n    font-family: \"Geist Mono\";\n}",
+        "domains": [
+          "crs.upd.edu.ph"
+        ]
+      }
+    ],
+    "updateDate": 1724039384419,
+    "_id": "e828c358-b50b-4626-90de-4dde607a1dab",
+    "_rev": 1759598246150,
+    "id": 29
+  },
+  {
+    "enabled": true,
+    "installDate": 1723800527561,
+    "name": "SpeedTyper",
+    "sections": [
+      {
+        "code": "html {\n    font-family: Geist, ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;\n}\n\ncode, kbd, pre, samp {\n    font-family: \"Geist Mono\", ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace\n}\n\nheader.h-10.mt-2.tracking-tighter {\n    font-family: \"Geist Mono\", monospace !important;\n    font-weight: normal;\n}\n\nfooter.h-10.tracking-tighter {\n    font-family: \"Geist Mono\", monospace !important;\n}\n\nbutton.flex.text-sm.font-light.text-dark-ocean.items-center.justify-between.gap-2.rounded-3xl.bg-gray-300.hover\\:bg-gray-400.hover\\:cursor-pointer.px-3.py-0\\.5.my-1{\n    font-family: \"Geist Mono\", monospace !important;\n}\n\n.h-\\[250px\\].sm\\:h-\\[420px\\].bg-dark-lake.text-faded-gray.flex-shrink.tracking-tight.sm\\:tracking-wider.rounded-xl.p-4.text-xs.sm\\:text-2xl.w-full {\n    font-family: \"Geist Mono\", monospace !important;\n}\n\n:root {\n    --toastify-font-family: \"Geist\", sans-serif;\n}",
+        "urlPrefixes": [
+          "https://www.speedtyper.dev/"
+        ]
+      }
+    ],
+    "updateDate": 1723802349334,
+    "_id": "84dad680-1baf-41a8-a965-b6d3b63f7ee4",
+    "_rev": 1759598246150,
+    "id": 30
+  },
+  {
+    "enabled": true,
+    "installDate": 1705555756998,
+    "name": "Productivity",
+    "sections": [
+      {
+        "code": ":root {\n    --sans-serif-font: \"DM Sans 14pt\", \"DM Sans\", sans-serif !important;\n    --nds-font-sans: \"DM Sans 14pt\", \"DM Sans\", sans-serif !important;\n    --monospace-font: \"Geist Mono\", \"JetBrains Mono\", monospace;\n}\n\n.jCiFHZ {\n    font-weight: 500;\n}\n\n.jiHpro strong {\n    font-weight: 700;\n}\n\n.jIHpro {\n    line-height: normal;\n    font-feature-settings: normal;\n}\n\n.sc-uk7zpl-0.AhhdV {\n    display: none;\n}",
+        "urlPrefixes": [
+          "https://calendar.notion.so/"
+        ]
+      },
+      {
+        "code": ":root {\n    --font-family-regular: \"DM Sans 14pt\", \"DM Sans\", \"Inter Variable Text\", sans-serif;\n    --reactist-font-family: \"DM Sans 14pt\", \"DM Sans\", \"Inter Variable Text\", sans-serif;\n    --reactist-font-family-monospace: \"Geist Mono\", monospace;\n    --editable-title-header-height: 52px;\n    --product-library-display-primary-idle-tint: #26253b;\n}\n\n#todoist_app,\nbody,\nhtml,\nselect {\n    font-family: \"DM Sans 14pt\", \"DM Sans\", \"Inter Variable Text\", sans-serif;\n}\n\n.adUC4xS,\n.t2PxiXImPwEzX1tFhxlxAQdQ6G6QGEYZ,\n.bXE_OUxVA6SLF4_bx9bQh7bikBRXq3GD,\n.upcoming_view__calendar__controls__picker,\n.z9PJyaa h1,\n.t2PxiXImPwEzX1tFhxlxAQdQ6G6QGEYZ.bXE_OUxVA6SLF4_bx9bQh7bikBRXq3GD {\n    font-family: \"Haffer-TRIAL\", \"DM Sans\";\n    font-size: 48px;\n    font-weight: 600;\n}",
+        "urlPrefixes": [
+          "https://app.todoist.com/"
+        ]
+      }
+    ],
+    "updateDate": 1753150204971,
+    "_id": "faff5c41-7939-4f80-bf70-47085127bf11",
+    "_rev": 1759598246174,
+    "preferScheme": "none",
+    "id": 31
+  },
+  {
+    "enabled": true,
+    "installDate": 1731243563604,
+    "name": "www.instagram.com",
+    "sections": [
+      {
+        "code": ":root {\n    --font-family-system: -apple-system, BlinkMacSystemFont, \"Inter Variable Text\", sans-serif !important;\n}",
+        "domains": [
+          "www.instagram.com"
+        ]
+      }
+    ],
+    "updateDate": 1753347856990,
+    "_id": "9b053d37-103c-44b3-b458-63ab2e832573",
+    "_rev": 1759598246174,
+    "id": 32
+  },
+  {
+    "enabled": true,
+    "installDate": 1731243982434,
+    "name": "shopee.ph",
+    "sections": [
+      {
+        "code": ".roboto body,\nhtml.roboto {\n    font-family: \"Inter Variable Text\", \"DM Sans\" !important;\n}",
+        "domains": [
+          "shopee.ph"
+        ]
+      }
+    ],
+    "updateDate": 1753110338644,
+    "_id": "60eb40d2-71b5-4ee2-aebb-d165b715d177",
+    "_rev": 1759598246174,
+    "id": 33
+  },
+  {
+    "enabled": true,
+    "installDate": 1731345160476,
+    "name": "gvnthelabel.com/checkouts/cn/Z2NwLWFzaWEtc291dGhlYXN0MTowMUpDRFMyMVhWREEzSEhaNkU1OU5BUjZWVw",
+    "sections": [
+      {
+        "code": ".g9gqqf1,\n.g9gqqf0,\n._1fragemnu,\n.g9gqqfc,\n.g9gqqfa,\n._1fragemsy,\n.g9gqqf6,\n.g9gqqf2,\n._1fragemn6,\n._1fragemna,\n.n8k95w1,\n.n8k95w0,\n._1fragemlj,\n.n8k95w3 {\n    font-family: \"Inter Variable Text\" !important;\n}",
+        "urlPrefixes": [
+          "https://gvnthelabel.com/checkouts/"
+        ]
+      }
+    ],
+    "updateDate": 1731345317596,
+    "_id": "49731653-8c2f-4ffb-93de-97c10043253a",
+    "_rev": 1759598246174,
+    "id": 34
+  },
+  {
+    "enabled": true,
+    "installDate": 1731839353286,
+    "name": "github.dev",
+    "sections": [
+      {
+        "code": ".windows {\n    font-family: Geist Mono, Segoe WPC, Segoe UI, sans-serif;\n}",
+        "domains": [
+          "github.dev"
+        ]
+      }
+    ],
+    "updateDate": 1731839358190,
+    "_id": "42479264-22fc-4417-9f4d-addd9694506f",
+    "_rev": 1759598246174,
+    "id": 35
+  },
+  {
+    "enabled": true,
+    "installDate": 1731840559943,
+    "name": "idx.google.com",
+    "sections": [
+      {
+        "code": ".windows {\n    font-family: Geist Mono, Segoe WPC, Segoe UI, sans-serif;\n}\n\n.ced-chat-session-detail-668fc5dc-4{\n    font-family: Geist Mono !important;\n}",
+        "domains": [
+          "idx.google.com"
+        ]
+      }
+    ],
+    "updateDate": 1731840671910,
+    "_id": "0be708b7-56fc-49a0-96ea-cf2ec427e91a",
+    "_rev": 1759598246174,
+    "id": 36
+  },
+  {
+    "enabled": true,
+    "installDate": 1732019146722,
+    "name": "dcs-cms.crabdance.com",
+    "sections": [
+      {
+        "code": ":root {\n    --theme--fonts--monospace--font-family: \"Geist Mono\", monospace;\n    --theme--fonts--sans--font-family: \"Inter Variable Text\", sans-serif;\n    --theme--fonts--display--font-family: \"Basier Circle\", sans-serif;\n    --theme--fonts--display--font-weight: 600;\n}\n\n.public-view .title-box .title h1[data-v-9ac8a847]{\n    font-weight: 600; \n}",
+        "domains": [
+          "dcs-cms.crabdance.com"
+        ]
+      }
+    ],
+    "updateDate": 1732029493048,
+    "_id": "4ada1bda-a73d-436f-8a1d-43646ad3a9da",
+    "_rev": 1759598246174,
+    "id": 37
+  },
+  {
+    "enabled": true,
+    "installDate": 1732984629021,
+    "name": "www.bing.com",
+    "sections": [
+      {
+        "code": "body,\n.b_no h4,\nh2 .b_secondaryText,\nh2 .b_alert,\n.b_underSearchbox,\n#b_header,\n.b_smText,\n.b_footnote,\n.ciot,\nh1,\nh2,\nh3,\np,\ninput,\ntextarea,\n#sa_ul,\n.pp_title,\nspan,\n.flyout_control_halfUnit .autoredeem_text,\n.as_bannertxt,\nhtml .hp_body #sw_as .sa_as #sa_ul li.pp_tile.pp_sTile .sa_tm .b_demoteText,\n.b_focusTextSmall,\n.b_focusTextMedium,\n.b_focusTextLarge,\n.rwrl,\n.sa_tm_mainText.sa_tm_rich,\n.sa_tm,\n.SeeMore,\n.b_focusLabel,\n.arasap-subscription-panel-content,\n.qfc {\n    font-family: \"DM Sans 14pt\" !important;\n}\n\n.b_rrsr,\n#b_results .b_ans.b_vidAns {\n    border-radius: 16px;\n}\n\n.b_exploreTitle {\n    border-radius: 16px 16px 0px 0px;\n}\n\n.b_mgridOuter {\n    border-radius: 0 0 16px 16px;\n}\n\n.mee-icon {\n    font-family: 'Membership Icons' !important;\n}\n\n.btn-dropdown .caret,\n.link-dropdown .caret,\n.win-icon {\n    font-family: \"Dev Center MDL2 Assets\" !important;\n}",
+        "domains": [
+          "bing.com"
+        ]
+      }
+    ],
+    "updateDate": 1759633088782,
+    "_id": "efa95c4d-185d-4d48-9275-96cfecc61204",
+    "_rev": 1759633088783,
+    "id": 38
+  },
+  {
+    "enabled": true,
+    "installDate": 1733979073541,
+    "name": "www.lazada.com.ph",
+    "sections": [
+      {
+        "code": ".app {\n    --ant-font-family: \"DM Sans 14pt\" !important;\n}\n\n.search-box__input--O34g,\n.lzd-header,\nhtml,\nbody {\n    font-family: \"DM Sans 14pt\" !important;\n}\n\n.lzd-site-nav-menu .lzd-site-menu-nav-container .lzd-site-menu-nav-category .lzd-site-menu-nav-category-text {\n    font-weight: 600 !important;\n    font-family: \"DM Sans 14pt\" !important;\n}",
+        "domains": [
+          "www.lazada.com.ph"
+        ]
+      }
+    ],
+    "updateDate": 1733979614695,
+    "_id": "0d5d79c8-8aa3-4968-9cf5-855508c73f2e",
+    "_rev": 1759598246174,
+    "id": 40
+  },
+  {
+    "enabled": true,
+    "installDate": 1734080414153,
+    "name": "tpb.party",
+    "sections": [
+      {
+        "code": "#details pre {\n    font-family: \"Geist Mono\" !important;\n}\n\nbody,\ntable,\ninput,\noption {\n    font-family: \"DM Sans\", \"DM Sans 14pt\" !important;\n}\n\n#adrestop {\n    display: none !important;\n}\n\ntable#searchResult {\n    margin-top: 0px !important;\n}",
+        "domains": [
+          "tpb.party"
+        ]
+      }
+    ],
+    "updateDate": 1753260726360,
+    "_id": "d9d230d1-67e8-47ed-95e7-b0e66bed4dcc",
+    "_rev": 1759598246174,
+    "id": 41
+  },
+  {
+    "enabled": true,
+    "installDate": 1734104394079,
+    "name": "www.notion.so",
+    "sections": [
+      {
+        "code": "div,\nh1,\nh2,\nh3,\nh4 {\n    font-family: \"DM Sans 14pt\", \"DM Sans\" !important;\n}\n\npre,\ncode,\n[style*='font-family:\"SFMono-Regular\", Menlo, Consolas, \"PT Mono\", \"Liberation Mono\", Courier, monospace'],\n[style*='font-family: \"SFMono-Regular\", Menlo, Consolas, \"PT Mono\", \"Liberation Mono\", Courier, monospace'] {\n    font-family: \"Geist Mono\" !important;\n    font-size: 1.1rem !important;\n}\n",
+        "domains": [
+          "www.notion.so"
+        ]
+      }
+    ],
+    "updateDate": 1751010296950,
+    "_id": "49e594de-5367-4c84-990d-315b34ac0593",
+    "_rev": 1759598246174,
+    "id": 42
+  },
+  {
+    "enabled": true,
+    "installDate": 1735451385534,
+    "name": "www.msn.com",
+    "sections": [
+      {
+        "code": ":root {\n    --body-font: \"DM Sans 14pt\" !important;\n}",
+        "domains": [
+          "www.msn.com"
+        ]
+      }
+    ],
+    "updateDate": 1735451616182,
+    "_id": "abb202e1-4833-4817-97db-e8d4a7922593",
+    "_rev": 1759598246174,
+    "id": 43
+  },
+  {
+    "enabled": true,
+    "installDate": 1737343167464,
+    "name": "checkout.stripe.com",
+    "sections": [
+      {
+        "code": ":root {\n    --checkout-text-font-family: \"DM Sans 14pt\" !important;\n}",
+        "domains": [
+          "checkout.stripe.com"
+        ]
+      }
+    ],
+    "updateDate": 1737343167464,
+    "_id": "67ecc7a0-1056-431a-8a0f-2e34979f187b",
+    "_rev": 1759598246174,
+    "id": 44
+  },
+  {
+    "enabled": true,
+    "installDate": 1737343766418,
+    "name": "app.link.com",
+    "sections": [
+      {
+        "code": "body {\n    font-family: \"DM Sans 14pt\" !important;\n}\n\n:root {\n    --fontFamilyDefault: \"DM Sans 14pt\" !important;\n}",
+        "domains": [
+          "app.link.com"
+        ]
+      }
+    ],
+    "updateDate": 1737343991101,
+    "_id": "8d064971-10ff-4bed-b4e4-e8adcdbf4bdc",
+    "_rev": 1759598246174,
+    "id": 45
+  },
+  {
+    "enabled": true,
+    "installDate": 1737389008862,
+    "name": "zen-browser.app",
+    "sections": [
+      {
+        "code": ":root {\n    --ac-font-sans: \"DM Sans 14pt\";\n}",
+        "domains": [
+          "zen-browser.app"
+        ]
+      }
+    ],
+    "updateDate": 1737389008862,
+    "_id": "50bb1e1d-8f84-4563-9b85-9f6c6ab37a14",
+    "_rev": 1759598246174,
+    "id": 46
+  },
+  {
+    "enabled": true,
+    "installDate": 1739438125895,
+    "name": "facebook.com",
+    "sections": [
+      {
+        "code": "#facebook,\n.system-fonts--body,\ndiv,\nspan {\n    font-family: -apple-system, BlinkMacSystemFont, \".SFNSText-Regular\", \"DM Sans 14pt\" !important;\n}",
+        "domains": [
+          "facebook.com"
+        ]
+      }
+    ],
+    "updateDate": 1753160554132,
+    "_id": "82cf9dc7-ed4a-4b13-8a35-3134fb7ba8f1",
+    "_rev": 1759598246174,
+    "id": 47
+  },
+  {
+    "enabled": true,
+    "installDate": 1739693331164,
+    "name": "letterboxd.com",
+    "sections": [
+      {
+        "code": ".banner.banner-950.js-hide-in-app {\n    display: none !important;\n}",
+        "domains": [
+          "letterboxd.com"
+        ]
+      }
+    ],
+    "updateDate": 1739693331164,
+    "_id": "d077ad5f-ce96-4a55-b23a-201113f46ae7",
+    "_rev": 1759598246174,
+    "id": 48
+  },
+  {
+    "enabled": true,
+    "installDate": 1740217701969,
+    "name": "results.healthonlineasia.com",
+    "sections": [
+      {
+        "code": ":root {\n    --bs-font-sans-serif: \"DM Sans 14pt\", sans-serif;\n    --bs-font-monospace: \"Geist Mono\", monospace;\n}",
+        "domains": [
+          "results.healthonlineasia.com"
+        ]
+      }
+    ],
+    "updateDate": 1740217714129,
+    "_id": "bb6592d8-bd11-4808-823b-2a43b9df16db",
+    "_rev": 1759598246174,
+    "id": 49
+  },
+  {
+    "enabled": true,
+    "installDate": 1741503176644,
+    "name": "scrimba.com",
+    "sections": [
+      {
+        "code": ":root,\nop-tab,\n.op-button:not(._0),\n.op-badge:not(._0),\n.mh-ar:not(#_):not(#_) {\n    font-family: \"DM Sans 14pt\" !important;\n}\n\n:root {\n    --font-monosans: \"Geist Mono\" !important;\n    --font-code: \"Geist Mono\" !important;\n}\n\nspan {\n    font-family: \"Geist Mono\" !important;\n}",
+        "domains": [
+          "scrimba.com"
+        ]
+      }
+    ],
+    "updateDate": 1746434910404,
+    "_id": "4ab9e2c5-6076-4b44-9bbc-eb02ad1041f9",
+    "_rev": 1759598246174,
+    "id": 50
+  },
+  {
+    "enabled": true,
+    "installDate": 1742308086836,
+    "name": "tauri.app",
+    "sections": [
+      {
+        "code": ":root {\n    --sl-font-system: \"DM Sans 14pt\" !important;\n    --sl-font-mono: \"Geist Mono\" !important;\n}",
+        "urlPrefixes": [
+          "https://tauri.app/"
+        ]
+      }
+    ],
+    "updateDate": 1742308115599,
+    "_id": "3f6ac045-02a7-41e4-addd-6bdfb18e5ee5",
+    "_rev": 1759598246174,
+    "id": 51
+  },
+  {
+    "enabled": true,
+    "installDate": 1742541417076,
+    "name": "t3.chat",
+    "sections": [
+      {
+        "code": "code, kbd, pre, samp {\n  font-family: \"Geist Mono\" !important;\n\n}\n\n:host, html {\n  font-family: \"DM Sans 14pt\" !important;\n\n}",
+        "domains": [
+          "t3.chat"
+        ]
+      }
+    ],
+    "updateDate": 1742541475618,
+    "_id": "eadad5b2-d1c0-4dd6-9477-419ff6836477",
+    "_rev": 1759598246174,
+    "id": 52
+  },
+  {
+    "enabled": true,
+    "installDate": 1742782650884,
+    "name": "pub.dev",
+    "sections": [
+      {
+        "code": "body {\n    font-family: \"DM Sans 14pt\" !important;\n}\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n    font-family: \"HAFFER-TRIAL\" !important;\n    font-weight: 600;\n}\n\ncode {\n    font-family: \"Geist Mono\" !important;\n}",
+        "domains": [
+          "pub.dev"
+        ]
+      }
+    ],
+    "updateDate": 1742782918556,
+    "_id": "38b51aa3-9eb5-487b-982b-cd47dc5755b6",
+    "_rev": 1759598246174,
+    "id": 53
+  },
+  {
+    "enabled": true,
+    "installDate": 1743000137547,
+    "name": "medium.com",
+    "sections": [
+      {
+        "code": "code,\npre,\nspan {\n    font-family: \"Geist Mono\" !important;\n}",
+        "domains": [
+          "medium.com"
+        ]
+      }
+    ],
+    "updateDate": 1743000289803,
+    "_id": "8ac8a14e-7195-42a2-aab5-3b668ebe2148",
+    "_rev": 1759598246174,
+    "id": 54
+  },
+  {
+    "enabled": true,
+    "installDate": 1743008224975,
+    "name": "leetcode.com",
+    "sections": [
+      {
+        "code": "body,\n.font-\\[\\'Helvetica_Neue\\'\\,sans-serif\\] {\n font-family: \"DM Sans 14pt\" !important;\n\n}\n\nspan,\ncode,\nkbd,\npre,\nsamp {\n    font-family: \"Geist Mono\" !important;\n}",
+        "domains": [
+          "leetcode.com"
+        ]
+      }
+    ],
+    "updateDate": 1743008904329,
+    "_id": "63162b63-bc78-4e20-aef0-c988168e4993",
+    "_rev": 1759598246174,
+    "id": 55
+  },
+  {
+    "enabled": true,
+    "installDate": 1743012589326,
+    "name": "www.pythoncheatsheet.org",
+    "sections": [
+      {
+        "code": "code {\n    font-family: \"DM Mono\" !important;\n}\n\n.prose :where(table):not(:where([class~=\"not-prose\"], [class~=\"not-prose\"] *)) {\n    font-size: 1.1rem;\n}",
+        "domains": [
+          "www.pythoncheatsheet.org"
+        ]
+      }
+    ],
+    "updateDate": 1743012974791,
+    "_id": "352e3208-a237-4a28-a18e-0ece3fc61431",
+    "_rev": 1759598246174,
+    "id": 56
+  },
+  {
+    "enabled": false,
+    "installDate": 1743039792248,
+    "name": "mail.notion.so",
+    "sections": [
+      {
+        "code": "* {\n    font-family: -apple-system, BlinkMacSystemFont, \"DM Sans 14pt\" !important;\n}",
+        "domains": [
+          "mail.notion.so"
+        ]
+      }
+    ],
+    "updateDate": 1753154789691,
+    "_id": "3bd8ac0b-6de4-4167-8b3d-89c89e89d041",
+    "_rev": 1759598246174,
+    "id": 57
+  },
+  {
+    "enabled": true,
+    "installDate": 1743046106705,
+    "name": "learnsql.com",
+    "sections": [
+      {
+        "code": "#flash-sale-box {\n    display: none !important;\n}",
+        "domains": [
+          "learnsql.com"
+        ]
+      }
+    ],
+    "updateDate": 1743046106705,
+    "_id": "1f342314-ddd5-4c2b-a061-472d5094c188",
+    "_rev": 1759598246174,
+    "id": 58
+  },
+  {
+    "enabled": true,
+    "installDate": 1743093783390,
+    "name": "dothings.warp.dev",
+    "sections": [
+      {
+        "code": "* {\n    font-family: Geist, \"DM Sans 14pt\" !important;\n}",
+        "domains": [
+          "dothings.warp.dev"
+        ]
+      }
+    ],
+    "updateDate": 1743093834521,
+    "_id": "d4ff7985-3917-4ece-86f8-32ebb5627dbf",
+    "_rev": 1759598246174,
+    "id": 59
+  },
+  {
+    "enabled": true,
+    "installDate": 1744684345903,
+    "name": "www.caniusevia.com",
+    "sections": [
+      {
+        "code": ":root {\n    --ifm-font-family-base: \"DM Sans 14pt\" !important;\n    --ifm-font-family-monospace: \"Geist Mono\" !important;\n}",
+        "domains": [
+          "www.caniusevia.com"
+        ]
+      }
+    ],
+    "updateDate": 1744684368240,
+    "_id": "d357a45e-e825-4421-a6ff-b9b4aa29ee0c",
+    "_rev": 1759598246174,
+    "id": 60
+  },
+  {
+    "enabled": true,
+    "installDate": 1744684515091,
+    "name": "keyboard-layout-editor.com",
+    "sections": [
+      {
+        "code": "html,\nbody {\n    font-family: \"DM Sans 14pt\" !important;\n}\n\nkbd,\n#rawdata,\n#rawdata-error,\n#customstyles,\n#customstyles-error,\n#noteseditor,\n#picker-html,\n#summary,\n.ace_editor,\n.keylabels {\n    font-family: 'Geist Mono' !important;\n}",
+        "domains": [
+          "keyboard-layout-editor.com"
+        ]
+      }
+    ],
+    "updateDate": 1745288739005,
+    "_id": "aeace512-0197-4933-8a16-651b01e8efb7",
+    "_rev": 1759598246174,
+    "id": 61
+  },
+  {
+    "enabled": true,
+    "installDate": 1745301869473,
+    "name": "kubernetes.io",
+    "sections": [
+      {
+        "code": "body {\n    font-family: \"DM Sans 14pt\" !important;\n}\n\npre,\ncode,\nkbd,\nsamp {\n    font-family: \"Geist Mono\" !important;\n}",
+        "domains": [
+          "kubernetes.io"
+        ]
+      }
+    ],
+    "updateDate": 1745302386901,
+    "_id": "908b2c63-4d83-4e3e-a9bf-ad28dfc13074",
+    "_rev": 1759598246187,
+    "id": 62
+  },
+  {
+    "enabled": true,
+    "installDate": 1745638473872,
+    "name": "ossinsight.io",
+    "sections": [
+      {
+        "code": ":root {\n    --ifm-font-family-base: \"DM Sans 14pt\" !important;\n    --ifm-font-family-monospace: \"Geist Mono\" !important;\n}\n\ndiv,\ninput,\ntd,\noption,\nbutton,\nul,\nli,\np,\na,\nspan {\n    font-family: \"DM Sans\", sans-serif !important;\n}",
+        "domains": [
+          "ossinsight.io"
+        ]
+      }
+    ],
+    "updateDate": 1745639856071,
+    "_id": "9a2b178d-3c14-4ceb-ad44-0713125ccb04",
+    "_rev": 1759598246187,
+    "id": 63
+  },
+  {
+    "enabled": true,
+    "installDate": 1747883493383,
+    "name": "www.pagibigfundservices.com",
+    "sections": [
+      {
+        "code": "body,\np,\na,\nli {\n    font-family: \"DM Sans 14pt\" !important;\n}\n\n.header,\n.nav-header {\n    font-weight: 600;\n}\n\n.chat-icon {\n    display: none;\n}",
+        "domains": [
+          "www.pagibigfundservices.com"
+        ]
+      }
+    ],
+    "updateDate": 1747883934592,
+    "_id": "d3894aa9-2c62-4a15-bd72-c919249d83b2",
+    "_rev": 1759598246187,
+    "id": 64
+  },
+  {
+    "enabled": true,
+    "installDate": 1750658035427,
+    "name": "selectstarsql.com",
+    "sections": [
+      {
+        "code": ".CodeMirror-lines {\n    cursor: text;\n    min-height: 400px !important;\n}\n\n.CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like, .CodeMirror {\n    font-family: \"Geist Mono\" !important;\n}",
+        "domains": [
+          "selectstarsql.com"
+        ]
+      }
+    ],
+    "updateDate": 1750658199308,
+    "_id": "54c2ebdf-9d22-4c21-9d51-044f3ad56dc3",
+    "_rev": 1759598246187,
+    "id": 65
+  },
+  {
+    "enabled": true,
+    "installDate": 1753178087868,
+    "name": "discord.com",
+    "sections": [
+      {
+        "code": ":root {\n    --font-code: \"Geist Mono\", \"gg mono\", \"Source Code Pro\", Consolas, \"Andale Mono WT\", \"Andale Mono\", \"Lucida Console\", \"Lucida Sans Typewriter\", \"DejaVu Sans Mono\", \"Bitstream Vera Sans Mono\", \"Liberation Mono\", \"Nimbus Mono L\", Monaco, \"Courier New\", Courier, monospace !important;\n    --font-primary: \"DM Sans\", \"DM Sans 14pt\", \"gg sans\", \"Noto Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif !important;\n    --font-display: \"DM Sans\", \"DM Sans 14pt\", \"gg sans\", \"Noto Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif !important;\n}",
+        "domains": [
+          "discord.com"
+        ]
+      }
+    ],
+    "updateDate": 1753178087868,
+    "_id": "ac4d6622-c42f-49dc-b2a5-857952e77fb9",
+    "_rev": 1759598246187,
+    "id": 66
+  },
+  {
+    "enabled": true,
+    "installDate": 1753533904207,
+    "name": "www.cineby.app",
+    "sections": [
+      {
+        "code": "body {\n    font-family: \"Google Sans\", \"DM Sans\", \"DM Sans 14pt\" !important;\n}",
+        "domains": [
+          "www.cineby.app"
+        ]
+      }
+    ],
+    "updateDate": 1753535212198,
+    "_id": "2d0fecf8-851d-4789-b123-918706f9a728",
+    "_rev": 1759598246187,
+    "id": 67
+  },
+  {
+    "enabled": true,
+    "installDate": 1753537801726,
+    "name": "flixer.su",
+    "sections": [
+      {
+        "code": "p.text-white.tracking-wide.text-center.w-auto {\n    font-family: \"Google Sans\" !important;\n}",
+        "domains": [
+          "flixer.su"
+        ]
+      }
+    ],
+    "updateDate": 1753537801726,
+    "_id": "f58ccdaa-e956-4fdf-bbf6-43f6277fd835",
+    "_rev": 1759598246187,
+    "id": 68
+  },
+  {
+    "enabled": true,
+    "installDate": 1753539021769,
+    "name": "111movies.com",
+    "sections": [
+      {
+        "code": ".css-1mx1rru {\n    font-family: \"Google Sans Medium\" !important;\n}\n\n.MuiBox-root.css-4v852c, .MuiBox-root.css-1wp7y37 {\n    font-size: 2rem !important;\n}",
+        "domains": [
+          "111movies.com"
+        ]
+      }
+    ],
+    "updateDate": 1753539088758,
+    "_id": "14055bd3-26b2-4574-913a-0810191cde0e",
+    "_rev": 1759598246187,
+    "id": 70
+  },
+  {
+    "enabled": true,
+    "installDate": 1754145343859,
+    "name": "myanimelist.net",
+    "sections": [
+      {
+        "code": "body,\na,\nspan,\ndiv,\nh1,\nh2,\nh3,\nh4,\ninput,\nselect {\n    font-family: \"DM Sans\", \"DM Sans 14pt\" !important;\n}\n\n.ga-impression {\n    display: none !important;\n}\n\na {\n  font-weight: normal;\n}",
+        "urlPrefixes": [
+          "https://myanimelist.net/"
+        ]
+      }
+    ],
+    "updateDate": 1754219466464,
+    "_id": "cdd2cfdb-7f6e-497b-beb4-ff371fce7bd3",
+    "_rev": 1759598246187,
+    "id": 71
+  },
+  {
+    "enabled": true,
+    "installDate": 1755483720669,
+    "name": "webets.enthuware.com",
+    "sections": [
+      {
+        "code": "pre,\nfont {\n    font-family: \"Geist Mono\" !important;\n}\n\nbody,\ntable td,\nselect,\nbutton {\n    font-family: \"DM Sans\" !important;\n}\n\n.gwt-Anchor,\n.addNote {\n    display: none !important;\n}",
+        "domains": [
+          "webets.enthuware.com"
+        ]
+      }
+    ],
+    "updateDate": 1755485278531,
+    "_id": "5ffe8f9b-a5be-4441-bcb3-a5c2550f6348",
+    "_rev": 1759598246187,
+    "id": 72
+  },
+  {
+    "enabled": true,
+    "installDate": 1755529272194,
+    "name": "webets.enthuware.com",
+    "sections": [
+      {
+        "code": "pre,\nfont {\n    font-family: \"Geist Mono\" !important;\n}\n\ndiv,\nbody,\ntable td,\nselect,\nbutton {\n    font-family: \"DM Sans 14pt\" !important;\n}\n\n.addNote,\n.gwt-Anchor {\n    display: none;\n}",
+        "domains": [
+          "webets.enthuware.com"
+        ]
+      }
+    ],
+    "updateDate": 1755530349683,
+    "_id": "5e857606-d107-4c92-80c5-6d537b06599e",
+    "_rev": 1759598246187,
+    "id": 73
+  },
+  {
+    "enabled": true,
+    "installDate": 1759335886575,
+    "name": "crowdin.com",
+    "sections": [
+      {
+        "code": "body,\n.hwt-content {\n    font-family: \"DM Sans 14pt\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n}",
+        "domains": [
+          "crowdin.com"
+        ]
+      }
+    ],
+    "updateDate": 1759336068537,
+    "_id": "e0ce695e-0cad-447c-ad6f-4f1dbcf1bfc2",
+    "_rev": 1759598246187,
+    "id": 74
+  },
+  {
+    "enabled": true,
+    "installDate": 1759373848414,
+    "name": "app.glean.com",
+    "sections": [
+      {
+        "code": "button,\np,\nbody,\nli {\n    font-family: \"DM Sans 14pt\" !important;\n}",
+        "domains": [
+          "app.glean.com"
+        ]
+      }
+    ],
+    "updateDate": 1759374021648,
+    "_id": "03292f68-914b-4d98-b0d5-0f9bb8b3ba83",
+    "_rev": 1759598246187,
+    "id": 75
+  },
+  {
+    "enabled": true,
+    "installDate": 1759646865714,
+    "name": "appflowy.com",
+    "sections": [
+      {
+        "code": "html {\n    font-family: \"DM Sans 14pt\", ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\" !important;\n}",
+        "domains": [
+          "appflowy.com"
+        ]
+      }
+    ],
+    "updateDate": 1759646871087,
+    "_id": "19f81356-a0ec-4430-8a00-26d21f3bff09",
+    "_rev": 1759646871087,
+    "id": 76
+  },
+  {
+    "enabled": true,
+    "installDate": 1759762282216,
+    "name": "kcna-exam-simulator.up.railway.app",
+    "sections": [
+      {
+        "code": "body {\n    font-family: \"DM Sans 14pt\" !important;\n}\n\n.bg-blue-50.dark\\:bg-blue-500\\/20.border.border-blue-200.dark\\:border-blue-400\\/30.rounded-lg.p-4.mb-6,\n.bg-gray-50.dark\\:bg-gray-800\\/30.border.border-gray-200.dark\\:border-gray-600.rounded-lg.p-4.mb-6,\n.bg-amber-50.dark\\:bg-amber-500\\/20.border.border-amber-200.dark\\:border-amber-400\\/30.rounded-lg.p-4.mb-6.mt-4 {\n    display: none !important;\n}",
+        "domains": [
+          "kcna-exam-simulator.up.railway.app"
+        ]
+      }
+    ],
+    "updateDate": 1759764492669,
+    "_id": "f773b474-8e7b-4dcc-bac9-7c1353d71e70",
+    "_rev": 1759764492670,
+    "id": 77
+  },
+  {
+    "enabled": true,
+    "installDate": 1759900125769,
+    "name": "connect.stripe.com",
+    "sections": [
+      {
+        "code": "",
+        "domains": [
+          "connect.stripe.com"
+        ]
+      }
+    ],
+    "updateDate": 1759901591686,
+    "_id": "bda5170e-2bf0-4fa1-b2e3-28e5e0ab7e4c",
+    "_rev": 1759901591686,
+    "id": 78
+  }
+]
