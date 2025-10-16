@@ -1,7 +1,7 @@
 /* Font settings */
 :root {
 	*:not(.titlebar-buttonbox-container *) {
-		font-family: "DM Sans 14pt", sans-serif !important;
+		font-family: "DM Sans 14pt", "DM Sans", sans-serif !important;
 }
 
 .bookmark-item,
